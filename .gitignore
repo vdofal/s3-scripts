@@ -1,0 +1,10 @@
+# Whitelist: only tracked tooling. Logs, per-project download/run folders and caches stay out.
+*
+!.gitignore
+!.gitattributes
+!CLAUDE.md
+!*.sh
+!download.py
+!requirements_tests.txt
+!tests/
+!tests/*.py
